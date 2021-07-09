@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+</style>
+/*font-family: 'Source Sans Pro', sans-serif;
+*/
+
+h1 h2 h3 h4 h5 h6 span p input a button {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+	width: 1148px;
+	margin: 0 auto;
+	/*text-align: center ;*/
+	
+}
+.header{
+	padding: 16px 0;
+	border-bottom: 1px solid #eee;
+	
+}
+
+a{
+	text-decoration: none;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menue ul li{
+
+	list-style: none;
+	display: inline-block;
+	line-height: 40px;
+	margin-left: 13px;
+} 
+
+.menue ul li a{
+	color: #6b6b6b;
+}
+.banner{
+	text-align: center;
+	padding: 50px 0;
+}
+.banner-text h1{
+	font-size: 56px;
+	color: #0f2656;
+
+}
+.banner-text h1 span{
+	color: #008aff;
+	margin-bottom: 20px;
+}
+.banner-text p{
+	color: #5c269d;
+	font-size: 16px;
+	line-height: 26px;
+}
+.project{
+	
+	padding: 50px 0;
+	/*margin:  0 auto;
+	*/
+}
+.project-ideas{
+
+	display: flex;
+	margin:  0 auto;
+
+}
+.right{
+	color: #0f2656;
+	
+	width: 574px;
+	    margin-right: 327px;
+	font-size: 25px;
+	padding-left: 25px;
+}
+.left{
+	width: 574px;
+	margin-left: 240px;
+	text-align: right;
+
+}
+.left h3{
+	color: #f15767;
+	font-size: 56px;
+	font-weight: bold;
+
+
+
+}
+.left p{
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+/*.left,.right{
+	flex-basis: 50%;
+}*/
+
+
+
+
+.services{
+	padding-top: 40px 0 60px 0;
+}
+.service-item{
+	display: flex;
+}
+.item-1{
+	background-color: #fdebed;
+}
+.item-2{
+	background-color: #ebf9f4;
+	margin-left: 30px;
+}
+.item-3{
+	background-color: #fff7e8;
+	margin-left: 30px;
+}
+.item-1,.item-2,.item-3{
+padding: 16px;
+}
+.service-item i{
+	margin-bottom: 16px;
+}
+.service-item h3{
+  color: #0f2656;
+  font-size: 24px;
+ margin-bottom: 10px;
+}
+.service-item p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 26px;
+
+
+}
+.footer{
+	text-align: center;
+	padding: 40px 0;
+	color: white;
+
+	background-color: #008aff;
+	margin-top: 60px;
+
+}
+
+.copyright{
+	
+}
